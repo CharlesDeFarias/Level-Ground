@@ -1,0 +1,422 @@
+
+ * {box-sizing: border-box;}
+body {
+  background-color: white;
+  color: #7A8188;
+  font-size: 15px;
+  line-height: 1.4;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+header {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0em 5%;
+  clear:both;
+  height: 3em;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  float: left;
+  height: 2.4em;
+  line-height: 2.4em;
+  font-size: 0.8em;
+  margin-right: 1em;
+}
+header nav ul li + li + li{
+  margin-left: 30%;
+  height: 2em;
+}
+header nav li:last-of-type{
+  float: right;
+  border-radius: 0.5em;
+  padding: 0 0.6em;
+  background-color: #f1f1f1;
+  color: #66768a;
+}
+header + section h1{
+  margin-top: 0;
+  font-size: 3em;
+}
+header + section{
+  height: 13em;
+}
+header + section p{
+  width: 80%;
+  margin: auto;
+}
+header + section:last-of-type{
+  height: 100em;
+}
+header + section + section + section{
+
+}
+.legalInfo {
+  float: left;
+  width: 100%;
+  border-top: 1px solid white;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+}
+.aButton {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em 0;
+  min-width: 12em;
+}
+header nav img {
+  height: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+header, header + section {
+  background-color: #66768a;
+  color: #f1f1f1;
+}
+.whyVolunteer {
+  background-color: white;
+  color: #66768a;
+  height: 13em;
+  margin: auto;
+}
+.whyVolunteer p{
+  margin: auto;
+  width: 50%;
+  font-size: .8em;
+}
+.whyVolunteer h2{
+  margin-top: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.doubleSection{
+  height: 37em;
+}
+.whyVolunteer + section, .whyVolunteer + section > section {
+  background-color: #dbdfe2;
+  color: #161f2a;
+}
+.whyVolunteer + section > section {
+  width: 50%;
+  float: left;
+  padding: 0 1em 1em 1em;
+}
+.whyVolunteer + section > section h1 {
+  font-size: 1.2em;
+  margin: 1em;
+}
+.whyVolunteer + section > section img {
+  max-width: 90%;
+  margin: 0 5%;
+}
+.aButton {
+  border: 1px solid #979797;
+}
+.doubleSection + section{
+  height: 23em;
+}
+.doubleSection + section h2{
+margin-top: 2em;
+font-size: 2em;
+margin-bottom: .1em;
+}
+.doubleSection + section p{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2em;
+}
+.doubleSection i{
+  width: 50%;
+  margin-left: 11%;
+  font-size: 14em;
+  margin-top: .15em;
+}
+footer {
+  padding: 2em 2%;
+  height: 15em;
+}
+footer > nav > ul + li + ul  {
+  font-size: 2em;
+  margin-right: 1em;
+}
+footer nav ul ul li {
+  float: left;
+  margin-right: 2em;
+}
+footer nav {
+  float: left;
+  text-align: left;
+}
+footer h1, footer h2 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+footer section:last-of-type img {
+  height: 100%;
+}
+footer section:last-of-type li {
+  float: left;
+  line-height: 2.4em;
+  height: 2.4em;
+}
+footer section:last-of-type li + li {
+  float: right;
+}
+footer nav img {
+  height: ;
+  background-color: blue;
+}
+footer h2 {
+  color: #66768a !important;
+}
+footer {
+  background-color: #161f2a;
+  color: #f1f1f1;
+}
+footer nav + section{
+  width: 26%;
+  float: left;
+  margin-left: 59%;
+  text-align: left;
+  margin-bottom: 1em;
+}
+footer nav + section h1{
+  margin-bottom: 1em;
+}
+footer > section:last-of-type{
+  width: 100%;
+  border-top: 1px solid white;
+  float: left;
+  height: 2em;
+}
+@media only screen and (max-width: 768px) {
+  .hideMobile{
+    display: none;
+  }
+body{
+  width: 100%;
+}
+nav ul li{
+  font-size: .5em;
+  margin:0;
+}
+nav ul li:last-of-type{
+  margin: 0;
+}
+nav ul li a{
+  margin: 0;
+}
+header{
+  height: 2em;
+}
+header nav ul li + li + li{
+  margin-left: 0;
+}
+header + section{
+  height: 17em;
+}
+header + section h1{
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+.whyVolunteer{
+  width: 100%;
+  height: 15em;
+}
+.whyVolunteer h2{
+  margin-top: 1em;
+}
+.whyVolunteer p{
+  width: 90%;
+}
+.whyVolunteer + section > section{
+  width: 100%;
+}
+.doubleSection + section{
+  width: 100%;
+  float: left;
+  height: 26em;
+}
+.doubleSection + section h2{
+  margin-top: 1em;
+}
+.doubleSection + section p{
+  width: 90%;
+}
+footer{
+  float: left;
+}
+footer nav ul{
+  width: 100%;
+  margin-left: 15%;
+}
+footer nav li{
+  font-size: 1.5em;
+  float: none;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  body{
+    width: 100%;
+  }
+  nav ul li{
+    font-size: .5em;
+    margin:0;
+  }
+  nav ul li:last-of-type{
+    margin: 0;
+  }
+  nav ul li a{
+    margin: 0;
+  }
+  header{
+    height: 2em;
+  }
+  header nav ul li + li + li{
+    margin-left: 0;
+  }
+  header + section{
+    height: 12em;
+  }
+  header + section h1{
+    font-size: 2em;
+    margin-bottom: .5em;
+  }
+  .whyVolunteer{
+    width: 85%;
+    height: 11em;
+  }
+  .whyVolunteer h2{
+    margin-top: 1em;
+  }
+  .whyVolunteer p{
+    width: 90%;
+  }
+  .whyVolunteer + section > section{
+    width: 50%;
+    height: 18em;
+  }
+  .doubleSection + section{
+    width: 100%;
+    float: left;
+    height: 20em;
+  }
+  .doubleSection + section h2{
+    margin-top: 1em;
+  }
+  .doubleSection + section p{
+    width: 90%;
+  }
+  footer{
+    float: left;
+    height: 20em;
+  }
+  footer nav{
+    margin-left: 15%;
+  }
+  footer nav ul{
+    width: 100%;
+    margin-left: 20%;
+  }
+  footer nav li{
+    font-size: 1.5em;
+    float: none;
+  }
+  footer nav + section{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 2000px){
+  body{
+    width: 80%;
+  }
+  nav li img{
+
+  }
+  nav ul li{
+    font-size: .5em;
+    margin:0;
+  }
+  nav ul li:last-of-type{
+    margin: 0;
+  }
+  nav ul li a{
+    margin: 0;
+  }
+  header{
+    height: 2em;
+  }
+  header nav ul li + li + li{
+    margin-left: 0;
+  }
+  header nav ul li{
+    margin-right: 20%;
+  }
+  header + section{
+    height: 12em;
+  }
+  header + section h1{
+    font-size: 2em;
+    margin-bottom: .5em;
+  }
+  .whyVolunteer{
+    width: 85%;
+    height: 11em;
+  }
+  .whyVolunteer h2{
+    margin-top: 1em;
+  }
+  .whyVolunteer p{
+    width: 90%;
+  }
+  .whyVolunteer + section > section{
+    width: 50%;
+    height: 18em;
+  }
+  .doubleSection + section{
+    width: 100%;
+    float: left;
+    height: 20em;
+  }
+  .doubleSection + section h2{
+    margin-top: 1em;
+  }
+  .doubleSection + section p{
+    width: 90%;
+  }
+  footer{
+    float: left;
+    height: 20em;
+    width: 100%;
+  }
+  footer > section{
+    width: 50%;
+    float: left;
+  }
+  footer nav{
+    font-size: 3em;
+    float: left;
+  }
+  footer nav + section{
+    margin-left: 55%;
+  }
+  .specialList{
+    width: 100%;
+    float: left;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 1.5em;
+  }
+}
